@@ -1,7 +1,7 @@
 var io = require('socket.io-client');
 const chalk = require('chalk').constructor({ enabled: true, level: 3 });;
-
-var socket = io("https://chat-server--jajoosam.repl.co");
+// Change the port If you want I am assuming you are in localhost
+var socket = io("127.0.0.1");
 
 const readline = require('readline');
 
