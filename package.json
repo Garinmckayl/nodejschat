@@ -1,7 +1,7 @@
 {
   "main": "index.js",
   "dependencies": {
-    "socket.io-client": "2.1.1",
+    "socket.io-client": "2.5.0",
     "chalk": "2.4.1",
     "prompts": "1.2.0"
   }
